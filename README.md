@@ -25,3 +25,7 @@ pkg
        ----- utils.go
        
 ```       
+
+# References
+https://github.com/bmf-san/go-clean-architecture-web-application-boilerplate
+http://c.xkdl666.xyz/takashabe/go-ddd-sample
