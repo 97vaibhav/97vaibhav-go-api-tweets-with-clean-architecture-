@@ -6,26 +6,34 @@
 
 cmd 
 ----main
-      ----main.go
+      ----main.go                                                                        // starting point of project
       
 pkg
 ----config
-       ----- app.go
+       ----- app.go                                                                      //use for databse connection returs db variable to be used in different package
        
 ----controllers
-       ----- tweet-controller.go
+       ----- tweet-controller.go                                                         // actual logic controllers 
        
 ----models
-       ----- tweet.go
+       ----- tweet.go                                                                    //struct tweet defined 
        
 ----routes
-       ----- routes.go
+       ----- routes.go                                                                   // used for routes 
        
 ----utils
-       ----- utils.go
+       ----- utils.go                                                                   // fuction to unmarshel data {json--->byte)
        
 ```       
 
+# Request End Points
+
+
+![endpoints drawio](https://user-images.githubusercontent.com/67567763/154916981-c83b2f34-0537-4e1c-9bc9-5480fb8a6dfa.png)
+
+- Daigram made from draw.io
+
 # References
-https://github.com/bmf-san/go-clean-architecture-web-application-boilerplate
-http://c.xkdl666.xyz/takashabe/go-ddd-sample
+- https://github.com/bmf-san/go-clean-architecture-web-application-boilerplate
+
+- http://c.xkdl666.xyz/takashabe/go-ddd-sample
